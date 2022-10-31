@@ -16,6 +16,7 @@
 
 <body>
 
+    <!-- Começo da Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -32,19 +33,21 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#serviços">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contatos</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Fim da Nav bar -->
 
+    <!-- Começo do carousel -->
     <header>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -58,24 +61,24 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active"
-                    style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                    style="background-image: url('https://source.unsplash.com/5fNmWej4tAA/1920x1080')">
                     <div class="carousel-caption">
-                        <h2>Para você microempreendedor!</h5>
-                        <p>Focamos em você, para que seu negócio possa crescer.</p>
+                        <h2 class="custom-text">Para você microempreendedor!</h2>
+                            <p class="custom-text">Focamos em você, para que seu negócio possa crescer.</p>
                     </div>
                 </div>
                 <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+                    style="background-image: url('https://source.unsplash.com/MYbhN8KaaEc/1920x1080')">
                     <div class="carousel-caption">
-                        <h2>Confiança e credibilidade.</h5>
-                        <p>Com a Modernus você tem o melhor que o mercado pode oferecer.</p>
+                        <h2 class="custom-text">Confiança e credibilidade.</h2>
+                            <p class="custom-text">Com a Modernus você tem o melhor que o mercado pode oferecer.</p>
                     </div>
                 </div>
                 <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+                    style="background-image: url('https://source.unsplash.com/Ok76F6yW2iA/1920x1080')">
                     <div class="carousel-caption">
-                        <h2>Pontualidade.</h5>
-                        <p>Prezamos sempre a pontualidade.</p>
+                        <h2 class="custom-text">Pontualidade.</h2>
+                            <p class="custom-text">Prezamos sempre a pontualidade.</p>
                     </div>
                 </div>
             </div>
@@ -92,34 +95,17 @@
         </div>
 
     </header>
+    <!-- fim do carousel -->
 
+    <a id="sobre"></a>
     <br>
+
     <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
+
         <div class="container">
-            <h1>Serviços</h1>
-            <br>
-            <div class="d-flex justify-content-around">
-                <div class="col-lg-4">
-                    <title>Contábil</title>
-                    <img class="bd-placeholder-img" width="100" height="100" src="./imgs/contabil.jpg" alt="Contábil">
-                    <h2>Contábil</h2>
-                    <p>Escrituração Contábil, balancetes, entrega de obrigações e orientações, tudo para lhe auxiliar.
-                    </p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img" width="100" height="100" src="./imgs/fiscal.jpg" alt="Fiscal">
-                    <h2>Fiscal</h2>
-                    <p>Acompanhamento das leis vigentes, planejamento tributário, envio de guias, sempre com
-                        pontualidade.</p>
-                </div><!-- /.col-lg-4 -->
-            </div>
 
-            <!-- START THE FEATURETTES -->
-
-            <hr class="featurette-divider">
-
+            <!-- começo do sobre -->
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Sobre nós. <span class="text-muted">Uma contabilidade
@@ -145,13 +131,42 @@
                     </p>
                 </div>
                 <div class="col-md-5">
-                    <img class="custom-image" src="./imgs/sobre.jpg" alt="Sobre">
+                    <img class="custom-image" src="./imgs/sobre-2.jpg" alt="Sobre">
                 </div>
             </div>
+            <!-- fim do sobre -->
 
-            <a id="contatos"></a>
+            <a id="serviços"></a>
+            <hr class="featurette-divider">
+
+            <!-- começo dos serviços -->
+            
+            <h1>Serviços</h1>
+            <br>
+            <div class="d-flex justify-content-around">
+                <div class="col-lg-4">
+                    <title>Contábil</title>
+                    <img class="bd-placeholder-img" width="100" height="100" src="./imgs/contabil.jpg" alt="Contábil">
+                    <h2>Contábil</h2>
+                    <p>Escrituração Contábil, balancetes, entrega de obrigações e orientações, tudo para lhe auxiliar.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img" width="100" height="100" src="./imgs/fiscal.jpg" alt="Fiscal">
+                    <h2>Fiscal</h2>
+                    <p>Acompanhamento das leis vigentes, planejamento tributário, envio de guias, sempre com
+                        pontualidade.</p>
+                </div>
+            </div>
+            <!-- fim dos serviços -->
+
+            <hr class="featurette-divider">
+
+            <a id="contato"></a>
+
+            <!-- começo do contato-->
             <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                <h1 class="display-4">Contatos</h1>
+                <h1 class="display-4">Contato</h1>
                 <p class="lead">
 
                     Entre em contato:
@@ -177,10 +192,12 @@
 
                 </p>
             </div>
+            <!-- fim do contato -->
 
         </div>
     </div>
 
+    <!-- começo do footer -->
     <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
         <div class="container text-center">
             <small>Copyright &copy; 2022 Modernus Contabilidade -- Made by <a href="https://github.com/eduardoranucci"
@@ -191,6 +208,7 @@
                     de vectorjuice</a> no Freepik</small>
         </div>
     </footer>
+    <!-- fim do footer -->
 
 </body>
 
